@@ -33,8 +33,13 @@ const FREE_TRIAL_USES = 10;
 const PRICE_PER_REQUEST = "$0.01";
 
 export function createAgentPaymentMiddleware() {
-  const payTo = process.env.PAY_TO_ADDRESS;
-  if (!payTo) throw new Error("PAY_TO_ADDRESS env var is required");
+  let payTo = process.env.PAY_TO_ADDRESS;
+  if (!payTo) {
+    payTo = "0x0000000000000000000000000000000000000000";
+    console.warn(
+      "[agent] PAY_TO_ADDRESS not set — demo mode: verification works, but x402 payments would go to the zero address. Set it in .env to receive payments.",
+    );
+  }
 
   const facilitatorClient = new HTTPFacilitatorClient({
     url: "https://x402-worldchain.vercel.app/facilitator",

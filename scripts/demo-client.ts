@@ -8,6 +8,7 @@
  *   3. Run the gateway (npm run dev), then: npm run demo
  */
 
+import "../src/env.js";
 import { createAgentkitClient } from "@worldcoin/agentkit";
 import { privateKeyToAccount } from "viem/accounts";
 

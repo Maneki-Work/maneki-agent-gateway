@@ -1,3 +1,4 @@
+import "./env.js";
 import { Hono } from "hono";
 import { serve } from "@hono/node-server";
 import { StreamableHTTPTransport } from "@hono/mcp";
