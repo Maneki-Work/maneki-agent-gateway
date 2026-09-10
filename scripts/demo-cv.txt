@@ -1,0 +1,25 @@
+Ada Lovelace — Senior Smart Contract Engineer
+
+Summary
+Senior engineer with 6 years in blockchain and 4 years focused on EVM smart contract development. Shipped audited DeFi protocols handling $200M+ TVL. Comfortable owning contracts end to end: architecture, implementation, testing, audits, deployment and monitoring. Remote-first, based in Europe (CET), open to remote roles worldwide.
+
+Experience
+Lead Smart Contract Engineer — Lendaverse (2023-2026)
+- Designed and shipped a cross-chain lending protocol on Ethereum mainnet, Arbitrum and Base (Solidity, Foundry).
+- Led two external audits (Trail of Bits, Spearbit); resolved all critical findings pre-launch.
+- Built on-chain monitoring and incident runbooks; zero exploits in production.
+
+Smart Contract Engineer — NFTropolis (2021-2023)
+- Implemented ERC-721/1155 marketplace contracts and royalty splitter used by 40k+ creators.
+- Cut gas costs 35% via storage packing and calldata optimization.
+
+Backend Engineer — Fintechly (2019-2021)
+- Node.js/TypeScript payment services, PostgreSQL, event-driven architecture on AWS.
+
+Skills
+Solidity, Foundry, Hardhat, EVM internals, DeFi (lending, AMM, staking), TypeScript, Node.js, viem/ethers, The Graph, PostgreSQL, CI/CD, formal verification basics (Certora).
+
+Education
+MSc Computer Science, Politecnico di Milano.
+
+Languages: English (fluent), Italian (native).
