@@ -25,6 +25,8 @@
 
 **Discovery is open, like the web. Actions are human-verified**: searching costs nothing, but AI matching, full result sets and (soon) applications require proof that a real, unique human stands behind the agent — or an x402 micropayment.
 
+> 📋 Track deliverable: [AgentKit feedback document](FEEDBACK.md) — integration notes, docs gaps, and the client/x402 `402` header-vs-body bug we found and worked around.
+
 ## Two surfaces
 
 | Surface | Access | What it serves |
