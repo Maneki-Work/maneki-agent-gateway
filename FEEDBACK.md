@@ -52,7 +52,11 @@ is genuinely good: we went from zero to a verified request in one sitting. Gaps 
   `https://x402-worldchain.vercel.app/facilitator`. Is this production infrastructure
   with an SLA, or a hackathon-grade deployment? The docs don't say, and there's no
   obvious first-party domain to trust. A `docs.world.org` page listing official
-  facilitator URLs per chain would remove the guesswork.
+  facilitator URLs per chain would remove the guesswork. *Field data from our own
+  production deploy: the first cold request hit `FacilitatorTimeoutError: supported
+  request timed out after 30000ms` (→ 502 to the caller); the immediate retry
+  succeeded. An SLA'd endpoint — or a documented client-side cache/warm-up story —
+  would prevent this.*
 - **Free-trial storage defaults.** `mode: { type: "free-trial" }` with the default
   in-memory storage silently resets everyone's quota on process restart. Fine for
   demos, surprising in production. A one-line warning in the guide (and a reference

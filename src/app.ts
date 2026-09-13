@@ -7,6 +7,9 @@ import { searchJobs, toJobWithSalary } from "./jobs.js";
 import { ipRateLimit } from "./rate-limit.js";
 
 export const app = new Hono();
+// Vercel's Hono framework preset routes non-/api paths straight at this
+// module and requires the app as default export.
+export default app;
 
 app.get("/", (c) =>
   c.json({
