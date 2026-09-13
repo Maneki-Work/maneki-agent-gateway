@@ -50,11 +50,13 @@ The gateway reads the [public Maneki dataset](https://github.com/Maneki-Work/job
 
 ### Try the MCP server
 
-Point any MCP client at `http://localhost:4021/api/mcp` (Streamable HTTP), e.g. in Claude Code:
+**Live**: point any MCP client at `https://maneki-agent-gateway.vercel.app/api/mcp` (Streamable HTTP), e.g. in Claude Code:
 
 ```bash
-claude mcp add --transport http maneki-jobs http://localhost:4021/api/mcp
+claude mcp add --transport http maneki-jobs https://maneki-agent-gateway.vercel.app/api/mcp
 ```
+
+(Running locally: same path on `http://localhost:4021`.)
 
 ### Try the gated endpoint as an agent
 
