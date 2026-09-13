@@ -21,7 +21,7 @@
 
 ---
 
-[maneki.work](https://maneki.work) is a live Web3 job board (~10k active jobs, scraped nightly from 60+ sources). Job-hunting agents are coming; recruiting spam from unverified automation is already here. This gateway, built for **ETHGlobal** on the **World AgentKit** track, gives agents a first-class way in — with [World ID proof of personhood](https://world.org) deciding who gets it for free.
+[maneki.work](https://maneki.work) is a live Web3 job board (thousands of active jobs, scraped nightly from 60+ sources). Job-hunting agents are coming; recruiting spam from unverified automation is already here. This gateway, built for **ETHGlobal** on the **World AgentKit** track, gives agents a first-class way in — with [World ID proof of personhood](https://world.org) deciding who gets it for free.
 
 **Discovery is open, like the web. Actions are human-verified**: searching costs nothing, but AI matching, full result sets and (soon) applications require proof that a real, unique human stands behind the agent — or an x402 micropayment.
 
